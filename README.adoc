@@ -36,6 +36,7 @@ link:./NetworkingWithOperation/Contents.swift[Contents.swift]
 image::cover.png[]
 
 [source,swift]
+----
 // MARK:- Fetching information with NSOperations|
 let queue = OperationQueue()
 // We will be using main operation Queue to update UI Components
@@ -52,3 +53,4 @@ let operation = BlockOperation(block: {
 })
 
 queue.addOperation(operation)
+----
