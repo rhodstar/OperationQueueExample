@@ -1,0 +1,36 @@
+= Ejemplo de OperationQueue y Networking
+Creado por Rodrigo Francisco <rhodfra@gmail.com>
+Version 1.0, 24.09.2021
+// Ruta base de las imagenes
+:imagesdir: ./README.assets/ 
+// Resaltar sintaxis
+:source-highlighter: pygments
+// Iconos para entorno local
+ifndef::env-github[:icons: font]
+// Iconos para entorno github
+ifdef::env-github[]
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+Proyecto para el diplomado 5G iOS, módulo 3
+
+[source,sh]
+Septiembre de 2021
+Autor: rhodfra@gmail.com 
+swift 5, iOS 13
+
+
+El proyecto muestra como realizar una petición a un servicio REST,
+para posteriormente manejar los eventos subsecuentes utilizando 
+`OperationQueue`, `Operation` y/o algún otro mecanismo.
+
+Para ejecutar el proyecto simplemente descargue el repositorio y 
+ejecute el playground.
+
+El core de este proyecto se encuentra en el archivo 
+./NetworkingWithOperation/Contents.swift[Contents.swift]
+
