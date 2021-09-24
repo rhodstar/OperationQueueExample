@@ -35,3 +35,20 @@ link:./NetworkingWithOperation/Contents.swift[Contents.swift]
 
 image::cover.png[]
 
+[source,swift]
+// MARK:- Fetching information with NSOperations|
+let queue = OperationQueue()
+// We will be using main operation Queue to update UI Components
+let mainQueue = OperationQueue.main
+
+let operation = BlockOperation(block: {
+    print("Started download")
+    downloadImageAndMetadata(imageNumber: 1) { imageDetail, error in
+        print("Finished downloaed")
+        mainQueue.addOperation {
+            print("Updating UI components in main thread")
+        }
+    }
+})
+
+queue.addOperation(operation)
