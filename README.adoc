@@ -31,7 +31,7 @@ Para ejecutar el proyecto simplemente descargue el repositorio y
 ejecute el playground.
 
 El core de este proyecto se encuentra en el archivo 
-link:./NetworkingWithOperation/Contents.swift[Contents.swift]
+link:./NetworkingWithOperation.playground/Contents.swift[Contents.swift]
 
 image::cover.png[]
 
