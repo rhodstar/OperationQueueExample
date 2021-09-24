@@ -23,7 +23,6 @@ Septiembre de 2021
 Autor: rhodfra@gmail.com 
 swift 5, iOS 13
 
-
 El proyecto muestra como realizar una petición a un servicio REST,
 para posteriormente manejar los eventos subsecuentes utilizando 
 `OperationQueue`, `Operation` y/o algún otro mecanismo.
@@ -32,5 +31,7 @@ Para ejecutar el proyecto simplemente descargue el repositorio y
 ejecute el playground.
 
 El core de este proyecto se encuentra en el archivo 
-./NetworkingWithOperation/Contents.swift[Contents.swift]
+link:./NetworkingWithOperation/Contents.swift[Contents.swift]
+
+image::cover.png[]
 
